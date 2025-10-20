@@ -2,7 +2,6 @@
 
 This player plays video on a terminal using ascii characters
 
-
 A good example are high contrast videos like `bad apple`, you can download it from youtube with `youtube-dl` from [Bad Apple](https://www.youtube.com/watch?v=FtutLA63Cp8) or just use the url directly in the command line and the player will stream it to your terminal.
 
 ## Install dependencies
@@ -22,7 +21,7 @@ The player uses your own terminal window dimensions by default and if u want to 
 ```python
 
 
-The default framerate is 60 fps. This can also be changed using the `--fps` flag. If it's set too high it will just go as fast as it can.
+The default framerate is 30 fps. This can also be changed using the `--fps` flag. If it's set too high it will just go as fast as it can.
 
 You can choose to display the original video with `opencv` with `--show true`
 
