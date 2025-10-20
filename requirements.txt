@@ -1,0 +1,5 @@
+cython
+argparse
+opencv-python
+yt-dlp
+windows-curses
