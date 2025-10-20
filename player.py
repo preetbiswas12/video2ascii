@@ -33,7 +33,7 @@ try:
 except ValueError:
     pass
 
-characters = [' ', '.', ',', '-', '~', ':', ';', '=', '!', '*', '#', '$', '@']
+characters = ['@', '$', '#', '*', '!', '=', ';', ':', '~', '-', ',', '.', ' ']
 if args.inv:
     characters = characters[::-1]
 char_range = int(255 / len(characters))
